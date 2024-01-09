@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { copy, linkIcon, loader, tick } from "../assets";
 import { useLazyGetSummaryQuery } from "../services/article";
 
